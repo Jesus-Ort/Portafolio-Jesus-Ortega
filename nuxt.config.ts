@@ -6,7 +6,7 @@
  * - Estilos globales Tailwind CSS v4 (`~/assets/css/main.css`)
  * - Metadatos SEO completos: Open Graph, Twitter Cards, Schema.org JSON-LD
  * - Servidor de desarrollo en host 0.0.0.0 y puerto 3000
- * - Salida estática en carpeta `dist/` para despliegue sin servidor
+ * - Modo SSR (nuxt build) para despliegue con el preset nativo de Vercel
  */
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-10',
@@ -151,9 +151,6 @@ export default defineNuxtConfig({
     port: 3000
   },
   nitro: {
-    output: {
-      publicDir: 'dist'
-    },
     prerender: {
       routes: ['/sitemap.xml', '/llms.txt']
     }

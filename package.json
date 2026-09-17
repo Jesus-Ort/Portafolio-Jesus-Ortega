@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nuxt dev --host 0.0.0.0 --port 3000",
-    "build": "nuxt generate",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
     "generate:assets": "node scripts/generate-brand-assets.mjs",
     "preview": "nuxt preview",
     "clean": "rm -rf dist .nuxt .output",
