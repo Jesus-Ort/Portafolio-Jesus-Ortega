@@ -150,7 +150,8 @@ useHead(() => ({
     { rel: 'alternate', hreflang: 'es', href: 'https://jesusortega.xyz/?lang=es' },
     { rel: 'alternate', hreflang: 'en', href: 'https://jesusortega.xyz/?lang=en' },
     { rel: 'alternate', hreflang: 'x-default', href: 'https://jesusortega.xyz/' },
-    { rel: 'sitemap', type: 'application/xml', title: 'Sitemap', href: '/sitemap.xml' }
+    { rel: 'sitemap', type: 'application/xml', title: 'Sitemap', href: '/sitemap.xml' },
+    { rel: 'llms.txt' as any, href: '/llms.txt' }
   ]
 }));
 

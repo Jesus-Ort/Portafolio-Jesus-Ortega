@@ -10,9 +10,22 @@
  */
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-10',
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@nuxtjs/sitemap'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: false },
+  site: {
+    url: 'https://jesusortega.xyz'
+  },
+  sitemap: {
+    zeroRuntime: true,
+    urls: async () => {
+      const today = new Date().toISOString().slice(0, 10);
+      return [
+        { loc: '/', changefreq: 'weekly', priority: 1.0, lastmod: today },
+        { loc: '/llms.txt', changefreq: 'monthly', priority: 0.6, lastmod: today }
+      ];
+    }
+  },
   app: {
     head: {
       title: 'Jesús Ortega — Full-Stack Developer & Software Engineer Portfolio',

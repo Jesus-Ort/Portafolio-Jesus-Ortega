@@ -56,4 +56,4 @@ Sitemap: https://jesusortega.xyz/sitemap.xml
 
 # LLMs.txt manifest for Generative AI Search engines
 # https://llmstxt.org/
-LLMs-Txt: /llms.txt
+# Descubierto via <link rel="llms.txt"> en el <head> del sitio
