@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+  <!-- Background Box -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="2" />
+  <!-- Inner Glow -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#glowGrad)" />
+  <!-- Console prompt > -->
+  <polyline points="18,18 36,32 18,46" fill="none" stroke="#3B82F6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Terminal Dot . -->
+  <circle cx="48" cy="46" r="4.5" fill="#3B82F6" />
+</svg>

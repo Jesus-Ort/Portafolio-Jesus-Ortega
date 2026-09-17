@@ -1,0 +1,42 @@
+# Jesús Ortega — Full-Stack Web Developer & Computer Engineer
+
+> Professional portfolio, production software engineering projects, technical dossier, and hiring profile for Jesús Ortega.
+
+## Professional Summary
+Jesús Ortega is a Junior Full-Stack Web Developer and Computer Engineer specializing in the Vue.js ecosystem (Vue 3, Nuxt 3, and Nuxt 4), Node.js, Express, and Supabase (PostgreSQL). He brings hands-on experience building mission-critical enterprise systems, healthcare registry platforms, responsive web apps, and automated workflows with Python and GitHub Actions.
+
+- Full Name: Jesús Ortega
+- Title: Junior Full-Stack Web Developer | Computer Engineer (Ingeniero en Informática)
+- Primary Location: Remote / Venezuela
+- Website: https://jesusortega.xyz
+- Email: jesusortech@gmail.com
+- GitHub: https://github.com/Jesus-Ort
+- LinkedIn: https://www.linkedin.com/in/jesusortegasq/
+- Availability: Available for full-time Junior Full-Stack roles, contracts, and frontend/backend software development.
+
+## Core Technical Competencies
+- Frontend Engineering: Vue.js (Vue 3, Composition API, `<script setup>`), Nuxt (Nuxt 3 & Nuxt 4), TypeScript, JavaScript (ES6+), Pinia state management, Tailwind CSS, Nuxt UI, Vuetify, HTML5, CSS3/PostCSS, Vite.
+- Backend & Database Architecture: Node.js, Express.js, RESTful API design, Supabase (PostgreSQL, Row-Level Security, Database Schemas), Authentication, CRUD microservices, Python 3.
+- DevOps, Automation & Workflow: Git, GitHub Actions (CI/CD pipelines), Discord.js, Pillow (PIL), Postman, Bun, npm.
+- Software Engineering Foundations: Object-Oriented Programming, MVC & Component-driven architectures, Data Structures & Algorithms, UI/UX accessibility (WCAG AA compliance).
+
+## Key Software Engineering Projects
+- **Fondo de Ayuda Mutua** (Client: Industrias Rodanol S.A.): Comprehensive mutual aid fund and financial administration platform managing loans, worker savings, payroll deductions, user authorization, and PDF accounting reports. Built with Nuxt, Vuetify, Express, and Supabase.
+- **Sistema-NH** (Client: CDI Negra Hipólita): Specialized healthcare record management system for tracking immunization histories, medical lot batches, dose intervals, and clinical reports. Built with Vue 3, Vite, Vuetify, Vee-Validate, and Pinia.
+- **Fluxora**: Real-time project collaboration and agile task workspace with live status boards and team activity tracking. Built with Nuxt 4, Vue 3, Tailwind CSS, Express, and Supabase.
+- **DolarBase**: Real-time foreign exchange monitor and currency calculator delivering live market quotes and historical trends. Built with Vue 3, Vite, Pinia, Tailwind CSS, and financial REST APIs.
+- **Academia Expresarte**: Educational portal and booking platform for creative workshops and academic programs. Built with Nuxt 4, Tailwind CSS, Express, and Supabase.
+- **RandomCards Automation**: Autonomous scheduled bot generating customized social media cards with automated daily publication cron jobs. Built with Python 3, GitHub Actions, Pillow, and X API v2.
+- **RandomDuel**: Interactive gaming and match engine bot for Discord communities. Built with Node.js and Discord.js.
+
+## Languages Spoken
+- Spanish: Native
+- English: Professional Working Proficiency (Technical documentation, team collaboration, code reviews)
+
+## Canonical URL Endpoints
+- Home / Dossier: /
+- Biography & Background: /#about
+- Featured Engineering Projects: /#projects
+- Technical Skills Matrix: /#skills
+- Contact & Inquiries: /#contact
+- Curricular PDF: Live in-app generated CV in Spanish and English
