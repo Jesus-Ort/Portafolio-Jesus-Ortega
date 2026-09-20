@@ -5,7 +5,7 @@
       <div class="flex flex-wrap items-center justify-between gap-3 text-[11px] font-mono text-slate-500 dark:text-slate-400 mb-8 pb-3 border-b border-slate-200/80 dark:border-white/10">
         <div class="flex items-center gap-2.5">
           <span class="tracking-wider uppercase font-semibold text-slate-800 dark:text-slate-200">
-            {{ language === 'es' ? 'ING. SISTEMAS' : 'SYS.ENG' }}
+            {{ language === 'es' ? 'ING. INFORMÁTICA' : 'COM. ENG' }}
           </span>
           <span class="text-slate-300 dark:text-slate-700 select-none">|</span>
           <span class="text-slate-600 dark:text-slate-400">
