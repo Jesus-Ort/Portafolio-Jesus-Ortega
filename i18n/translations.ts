@@ -31,7 +31,7 @@ export const PERSONAL_INFO_EN = {
     { label: "Repositories & Projects", value: "16+" },
     { label: "Production & Web Solutions", value: "8+" },
     { label: "Core Stack & Technologies", value: "Vue / Nuxt / Nuxt UI / Python" },
-    { label: "Degree", value: "Ing. Informática" }
+    { label: "Degree", value: "Computer Engineer" }
   ],
   highlights: [
     "Proficient in Vue.js (Vue 3, Nuxt 3 & Nuxt 4), Nuxt UI, Composition API, and Pinia",
