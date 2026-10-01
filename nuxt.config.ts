@@ -33,6 +33,13 @@ export default defineNuxtConfig({
         lang: 'es',
         dir: 'ltr'
       },
+      script: [
+        {
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4814529944139675',
+          crossorigin: 'anonymous'
+        }
+      ],
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
