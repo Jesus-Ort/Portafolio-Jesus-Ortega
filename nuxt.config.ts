@@ -9,13 +9,6 @@
  * - Modo SSR (nuxt build) para despliegue con el preset nativo de Vercel
  */
 export default defineNuxtConfig({
-  scripts: {
-    registry: {
-      googleAdsense: {
-        client: 'ca-pub-4814529944139675', // AdSense Publisher ID
-      },
-    },
-  },
   compatibilityDate: '2026-09-10',
   modules: ['@nuxt/ui', '@nuxtjs/sitemap'],
   css: ['~/assets/css/main.css'],
